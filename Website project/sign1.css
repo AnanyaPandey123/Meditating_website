@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "poppins", sans-serif;
+	box-sizing: border-box;
+
+}
+body{
+	margin: 0;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	min-height: 100vh;
+	background-image: url("https://i.pinimg.com/736x/f7/7c/1b/f77c1b2feb45c911991850bb89c8ec41.jpg");
+	background-size: cover;
+
+}
+.hero{
+	width: 420px;
+	background:transparent;
+	border:2px solid white;
+	color: black;
+	border-radius: 10px;
+	padding: 30px 40px;
+}
+.hero h1{
+	font-size: 36px;
+	text-align: center;
+	font-color:skyblue;
+}
+.box, .box1 {
+  position: relative; /* Relative positioning for icons */
+  margin-bottom: 20px;
+}
+
+.box input, .box1 input {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* Leave space for the icons */
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.box i, .box1 i {
+  position: absolute;
+  right: 10px; /* Place icons to the right */
+  top: 50%; /* Center icons vertically */
+  transform: translateY(-50%);
+  color: #aaa;
+  font-size: 20px;
+  pointer-events: none; /* Prevent icons from blocking input interaction */
+}
+
+.hero .forgot{
+	justify-content: space-between;
+	display:flex;
+	align-items: center;
+	font-size: 16px;
+	margin: -15px 0 15px;
+}
+.forgot label input{
+	accent-color:black;
+	margin-right: 3px;
+}
+.forget a:hover{
+	text-decoration: underline;
+}
+.hero .button{
+	width:100%;
+	height: 45px;
+	background: blue;
+	border: none;
+	outline: none;
+	border-radius: 40px;
+	cursor: pointer;
+	font-size: 16px;
+	color: white;
+	font-weight: 600;
+}
+.hero .register{
+	font-size: 14.5px;
+	text-align: center;
+	margin-top: 20px;
+
+}
+.register p a{
+	color: black;
+	text-decoration: none;
+	font-weight: 600;
+}
+.register p a:hover{
+	text-decoration: underline;
+}
