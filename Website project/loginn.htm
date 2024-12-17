@@ -10,14 +10,16 @@
 </head>
 <body>
     <div class="hero">
-    <form="">
+    <form action="loginn.php" method="post">
+        
         <h1>Login</h1>
+        
         <div class="box">
-            <input type="text" placeholder="Username"required>
+            <input type="text" name="username"placeholder="Username"required>
             <i class='bx bxs-user'></i>
         </div>
         <div class="box1">
-            <input type="password" placeholder="Password"required>
+            <input type="password"name="password" placeholder="Password"required>
             <i class='bx bxs-lock-alt'></i>
         </div>
         <div class="forgot">
@@ -25,9 +27,10 @@
             <a href="#">Forgot password?</a>
         </div>
         <button type="submit" class="button">Login</button>
+        
         <div class="register">
             <p>Don't have an account?
-            <a href="#">Sign up</a></p></div>
+            <a href="create.htm">Sign up</a></p></div>
     </form>
 </div>
 </body>
